@@ -6,11 +6,44 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		EF260F8E2EB00D0200C88ECC /* View+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF260F8D2EB00D0200C88ECC /* View+Helpers.swift */; };
+		EF294A012EA64FF500145382 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2949FE2EA64FF500145382 /* OnboardingView.swift */; };
+		EF294A052EA65E9E00145382 /* OnboardingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF294A042EA65E9E00145382 /* OnboardingViewModel.swift */; };
+		EF294A1A2EAC31FB00145382 /* ActivityViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF294A192EAC31FB00145382 /* ActivityViewModel.swift */; };
+		EF294A1C2EAD341900145382 /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF294A1B2EAD341900145382 /* ActivityView.swift */; };
+		EF294A1E2EAD683D00145382 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF294A1D2EAD683D00145382 /* ContentView.swift */; };
+		EF294A222EADB0C300145382 /* GoalCompletedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF294A212EADB0C300145382 /* GoalCompletedView.swift */; };
+		EF294A3C2EADDA6000145382 /* FullCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF294A3B2EADDA6000145382 /* FullCalendarView.swift */; };
+		EF439A192EB0D89800976664 /* Color+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF439A182EB0D89800976664 /* Color+Hex.swift */; };
+		EF439A1B2EB0D9EF00976664 /* GoalUpdateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF439A1A2EB0D9EF00976664 /* GoalUpdateView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		EF260F8D2EB00D0200C88ECC /* View+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Helpers.swift"; sourceTree = "<group>"; };
+		EF2949FE2EA64FF500145382 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		EF294A042EA65E9E00145382 /* OnboardingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewModel.swift; sourceTree = "<group>"; };
+		EF294A192EAC31FB00145382 /* ActivityViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityViewModel.swift; sourceTree = "<group>"; };
+		EF294A1B2EAD341900145382 /* ActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
+		EF294A1D2EAD683D00145382 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EF294A212EADB0C300145382 /* GoalCompletedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalCompletedView.swift; sourceTree = "<group>"; };
+		EF294A3B2EADDA6000145382 /* FullCalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullCalendarView.swift; sourceTree = "<group>"; };
+		EF439A182EB0D89800976664 /* Color+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Hex.swift"; sourceTree = "<group>"; };
+		EF439A1A2EB0D9EF00976664 /* GoalUpdateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalUpdateView.swift; sourceTree = "<group>"; };
 		EFD2C27D2EA52064001B9A37 /* learningapp_ch2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = learningapp_ch2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		EF260F932EB0171900C88ECC /* Models */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EF294A112EA9188400145382 /* Resources */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		EFD2C27F2EA52064001B9A37 /* learningapp_ch2 */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = learningapp_ch2;
@@ -29,9 +62,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EF294A032EA65AAF00145382 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				EF294A042EA65E9E00145382 /* OnboardingViewModel.swift */,
+				EF294A192EAC31FB00145382 /* ActivityViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		EF294A092EA6774500145382 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EF2949FE2EA64FF500145382 /* OnboardingView.swift */,
+				EF294A1B2EAD341900145382 /* ActivityView.swift */,
+				EF294A1D2EAD683D00145382 /* ContentView.swift */,
+				EF294A212EADB0C300145382 /* GoalCompletedView.swift */,
+				EF294A3B2EADDA6000145382 /* FullCalendarView.swift */,
+				EF439A1A2EB0D9EF00976664 /* GoalUpdateView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EF294A3D2EAE41D700145382 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				EF439A182EB0D89800976664 /* Color+Hex.swift */,
+				EF260F8D2EB00D0200C88ECC /* View+Helpers.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		EFD2C2742EA52064001B9A37 = {
 			isa = PBXGroup;
 			children = (
+				EF294A3D2EAE41D700145382 /* Extensions */,
+				EF294A092EA6774500145382 /* Views */,
+				EF294A032EA65AAF00145382 /* ViewModels */,
+				EF260F932EB0171900C88ECC /* Models */,
+				EF294A112EA9188400145382 /* Resources */,
 				EFD2C27F2EA52064001B9A37 /* learningapp_ch2 */,
 				EFD2C27E2EA52064001B9A37 /* Products */,
 			);
@@ -61,6 +130,8 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
+				EF260F932EB0171900C88ECC /* Models */,
+				EF294A112EA9188400145382 /* Resources */,
 				EFD2C27F2EA52064001B9A37 /* learningapp_ch2 */,
 			);
 			name = learningapp_ch2;
@@ -119,6 +190,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF294A1A2EAC31FB00145382 /* ActivityViewModel.swift in Sources */,
+				EF294A012EA64FF500145382 /* OnboardingView.swift in Sources */,
+				EF294A3C2EADDA6000145382 /* FullCalendarView.swift in Sources */,
+				EF260F8E2EB00D0200C88ECC /* View+Helpers.swift in Sources */,
+				EF439A1B2EB0D9EF00976664 /* GoalUpdateView.swift in Sources */,
+				EF294A1E2EAD683D00145382 /* ContentView.swift in Sources */,
+				EF294A052EA65E9E00145382 /* OnboardingViewModel.swift in Sources */,
+				EF294A222EADB0C300145382 /* GoalCompletedView.swift in Sources */,
+				EF439A192EB0D89800976664 /* Color+Hex.swift in Sources */,
+				EF294A1C2EAD341900145382 /* ActivityView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
