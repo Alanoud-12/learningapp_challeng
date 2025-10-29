@@ -20,11 +20,11 @@ Weekly Calendar View: Navigate week-by-week and see the status of each day.
 
 Full Calendar View: Navigate month-by-month to see the complete history.
 
-Goal Completion: View acknowledges when the target number of learned days is reached.
+Goal Completion: View acknowledges when the target number of learned days is reached, offering options to set a new goal or repeat the same goal.
 
 Change Goal: Option to update the learning goal topic and/or duration (resets streak).
 
-Liquid Glass UI: Modern interface aesthetic using background materials and blur effects.
+Liquid Glass UI: Modern interface aesthetic using background materials.
 
 Data Persistence: Uses @AppStorage (UserDefaults) to save the user's goal, streak history, and freezes used.
 
