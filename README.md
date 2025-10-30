@@ -1,4 +1,4 @@
-SwiftUI Learning Tracker App
+SwiftUI Learning App
 
 A simple iOS application built with SwiftUI to help users set learning goals, track their daily progress, and maintain streaks using a freeze feature.
 
